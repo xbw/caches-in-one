@@ -13,6 +13,7 @@
         <module>jcs/jcs</module>
         <module>jcs/jcs1.x</module>
         <module>jcs/jcs2.x</module>
+        <module>memcached</module>
     </modules>
 
     <properties>
