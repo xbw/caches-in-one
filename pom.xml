@@ -10,6 +10,13 @@
         <module>caffeine</module>
         <module>ehcache/ehcache</module>
         <module>ehcache/ehcache2.x</module>
+        <module>jcache/jcache</module>
+        <module>jcache/jcache-caffeine</module>
+        <module>jcache/jcache-camel</module>
+        <module>jcache/jcache-ehcache</module>
+        <module>jcache/jcache-hazelcast</module>
+        <module>jcache/jcache-infinispan</module>
+        <module>jcache/jcache-jcs</module>
         <module>jcs/jcs</module>
         <module>jcs/jcs1.x</module>
         <module>jcs/jcs2.x</module>
@@ -66,6 +73,38 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-jcs3-core</artifactId>
                 <version>3.1</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/javax.cache/cache-api -->
+            <dependency>
+                <groupId>javax.cache</groupId>
+                <artifactId>cache-api</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-jcs-jcache -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-jcs-jcache</artifactId>
+                <version>2.2.1</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.hazelcast/hazelcast -->
+            <dependency>
+                <groupId>com.hazelcast</groupId>
+                <artifactId>hazelcast</artifactId>
+                <version>4.2.1</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.infinispan/infinispan-jcache -->
+            <dependency>
+                <groupId>org.infinispan</groupId>
+                <artifactId>infinispan-jcache</artifactId>
+                <version>12.1.6.Final</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.camel/camel-jcache -->
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jcache</artifactId>
+                <version>3.14.7</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
